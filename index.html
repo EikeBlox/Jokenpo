@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo Pedra, Papel ou Tesoura</h1>
+        
+        <div class="score-board">
+            <p><strong>Pontuação</strong></p>
+            <p>Jogador: <span id="player-score">0</span></p>
+            <p>Máquina: <span id="computer-score">0</span></p>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn" id="rock">👊 Pedra</button>
+            <button class="btn" id="paper">🖐️ Papel</button>
+            <button class="btn" id="scissors">✌️ Tesoura</button>
+        </div>
+        
+        <div id="result">
+            <p>Escolha uma opção!</p>
+        </div>
+        
+        <table id="choices-table">
+            <thead>
+                <tr>
+                    <th>Jogador</th>
+                    <th>Máquina</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="player-choice">-</td>
+                    <td id="computer-choice">-</td>
+                    <td id="game-result">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
