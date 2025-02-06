@@ -1,7 +1,3 @@
-Aqui está um exemplo de como você pode escrever o README.md para esse projeto:
-
----
-
 # Jogo Pedra, Papel ou Tesoura
 
 Este é um simples jogo de **Pedra, Papel ou Tesoura** desenvolvido em **HTML**, **CSS** e **JavaScript**. O objetivo do jogo é competir contra a máquina e ver quem ganha em uma rodada baseada nas regras clássicas do jogo.
@@ -44,7 +40,3 @@ Além disso, se o jogador e a máquina escolherem a mesma opção, o jogo é con
 ## Licença
 
 Este projeto é de **uso livre**. Você pode usar, modificar e distribuir o código como desejar, de acordo com suas necessidades.
-
----
-
-Esse README.md fornece uma explicação clara sobre o funcionamento do jogo sem entrar nos detalhes de implementação, conforme solicitado.
